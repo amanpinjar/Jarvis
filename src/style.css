@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 /* Font style */
 
-*{
+* {
     margin: 0% auto;
     padding: 0% auto;
     box-sizing: border-box;
 }
 
-body{
+body {
     height: 100%;
     width: 100%;
     font-family: "Inter", sans-serif;
@@ -27,16 +27,35 @@ body{
 }
 
 /* Narbar-start */
-.navbar-main{
+
+.navbar-main {
     display: flex;
     margin: 1rem;
 }
-.navbar-main , a {
-    margin: 1%;  
+
+.navbar-main>a {
+    margin: 1%;
 }
 
-.navbar-main , button{
+.navbar-main>button {
+    padding: 1rem;
     border-radius: 4rem;
+    color: var(--light-color);
+    background-color: var(--btn-primary);
+    border: none;
 }
+
 /* Narbar-End */
 
+/* Jarvis-main Start */
+
+.jarvis_main {
+    margin: 4%;
+    padding: 2%;
+}
+
+.jarvis_main>h4{
+text-align: center;
+}
+,.jarvis_main
+/* Jarvis-main End */
