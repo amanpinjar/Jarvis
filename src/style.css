@@ -34,6 +34,7 @@ body {
 }
 
 .navbar-main>a {
+    text-decoration: none;
     margin: 1%;
 }
 
@@ -51,11 +52,45 @@ body {
 
 .jarvis_main {
     margin: 4%;
-    padding: 2%;
+    padding: 3%;
+    
 }
 
-.jarvis_main>h4{
+.jarvis_main>div{
+    /* font-size: 2%; */
 text-align: center;
+color: var(--gray-color);
 }
-,.jarvis_main
+
+.jarvis-ai-driven{
+    color: var(--secondary-color);
+    font-size: 5rem;
+}
+
+/* Jarvis-Main Button Start */
+.jarvis_main > button{
+    display: flex;
+    background-color: var(--light-color);
+    color: var(--gray-color);
+    border: none;
+    border-radius: 2rem;
+    padding: 2%;
+    font-size: 1rem;
+}
+
+.jarvis_main > button:hover{
+    background-color: var(--btn-primary);
+    color: var(--light-color);
+}
+/* Jarvis-Main Button End */
+
+/* Jarvis-Main GIF Start */
+.Jarvis_video {
+  display: flex;
+}
+
+/* Jarvis-Main GIF End */
+
 /* Jarvis-main End */
+
+
