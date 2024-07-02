@@ -1,0 +1,42 @@
+/* Font style */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+/* Font style */
+
+*{
+    margin: 0% auto;
+    padding: 0% auto;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    font-family: "Inter", sans-serif;
+
+}
+
+:root {
+    --font-size: 24px;
+    --primary-color: #2b70c5;
+    --secondary-color: #1566d6;
+    --light-color: #fff;
+    --gray-color: #303236;
+    --btn-primary: #0d6efd;
+    --container-padding: 2rem 4rem;
+    --padding-section: 5.5rem;
+}
+
+/* Narbar-start */
+.navbar-main{
+    display: flex;
+    margin: 1rem;
+}
+.navbar-main , a {
+    margin: 1%;  
+}
+
+.navbar-main , button{
+    border-radius: 4rem;
+}
+/* Narbar-End */
+
