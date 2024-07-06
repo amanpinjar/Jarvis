@@ -31,6 +31,7 @@ body {
 .navbar-main {
     display: flex;
     margin: 1rem;
+
 }
 
 .navbar-main>a {
@@ -39,11 +40,12 @@ body {
 }
 
 .navbar-main>button {
-    padding: 1rem;
+    padding: 1%;
     border-radius: 4rem;
     color: var(--light-color);
-    background-color: var(--btn-primary);
+    background-color: var(--secondary-color);
     border: none;
+    font-size: 1rem;
 }
 
 /* Narbar-End */
@@ -51,46 +53,62 @@ body {
 /* Jarvis-main Start */
 
 .jarvis_main {
-    margin: 4%;
+    
+    margin: 2%;
     padding: 3%;
     
+
 }
 
-.jarvis_main>div{
-    /* font-size: 2%; */
-text-align: center;
-color: var(--gray-color);
-}
-
-.jarvis-ai-driven{
-    color: var(--secondary-color);
-    font-size: 5rem;
-}
-.jarvis_main > h1{
+.jarvis_main>div {
+    margin-bottom: 2% ;
+     font-size: 15px; 
+    text-align: center;
     color: var(--gray-color);
-    font-size: 5rem;
+}
+
+.jarvis-ai-driven {
+    color: var(--primary-color);
+    font-size: 60px;
+   
+}
+
+.jarvis_main>h1 {
+    margin-bottom: 2% ;
+    color: var(--gray-color);
+    font-size: 60px;
+    text-align: center;
+}
+
+.jarvis_main > p{
+    font-size: var(--font-size);
+    text-align: center;
+    margin-bottom: 2% ;
 }
 
 /* Jarvis-Main Button Start */
-.jarvis_main > button{
+.jarvis_main>button {
     display: flex;
     background-color: var(--light-color);
     color: var(--gray-color);
-    border: none;
+    border-width: 0.1px;
     border-radius: 2rem;
-    padding: 2%;
+    padding: 22px 40px;
     font-size: 1rem;
+    font-style: var(--gray-color);
 }
 
-.jarvis_main > button:hover{
+.jarvis_main>button:hover {
     background-color: var(--btn-primary);
     color: var(--light-color);
 }
+
 /* Jarvis-Main Button End */
 
 /* Jarvis-Main GIF Start */
-.Jarvis_video {
-  display: flex;
+.Jarvis_video > img {
+    display: flex;
+   width: 95%;
 }
 
 /* Jarvis-Main GIF End */
@@ -98,32 +116,58 @@ color: var(--gray-color);
 /* Jarvis-main End */
 
 /* Analyze The Unknown Start */
-.jarvis_Analyze{
-    margin: 10%;
+.jarvis_Analyze {
+    margin: 15%;
+
+}
+
+.jarvis_Analyze > p{
+    padding: 2%;
+    text-align: center;
+}
+.Analyze_main {
+    display: flex;
     
 }
-.Analyze_title{
+.Analyze_title {
     text-align: center;
     font-size: 2rem;
 }
-.Analyze_title > h1{
+
+.Analyze_title>h1 {
+    font-size: 3rem;
     color: var(--gray-color);
 }
-.Analyze_unknown{
+
+.Analyze_unknown {
     color: var(--primary-color);
 }
-.Analyze_main{
-    display: flex;
-}
-.Data_Points{
 
-    border: rgb(202, 190, 190) solid;
-    border-radius: 1rem;
+
+.Data_Points {
+/* padding: 3%; */
+    border:  rgb(202, 190, 190) solid;
+    border-radius: 2rem;
     margin: 2rem;
-    width: 20rem;
-    max-width: 19rem;
-    height: 10rem;
-}
+    /* width: 1000px; */
+    /* max-width: 19rem; */
+    height: 13rem;
 
+}
+.Data_Points > img{
+    margin: 10%;
+}
+.Data_Points > h4 {
+    
+    font-size: 28px;
+    
+    
+}
+.Data_Points > p{
+    
+}
 /* Analyze TheUnknown End */
 
+/* Why_Jarvis_main start */
+
+/* Why_Jarvis_main End */
