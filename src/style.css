@@ -66,6 +66,10 @@ color: var(--gray-color);
     color: var(--secondary-color);
     font-size: 5rem;
 }
+.jarvis_main > h1{
+    color: var(--gray-color);
+    font-size: 5rem;
+}
 
 /* Jarvis-Main Button Start */
 .jarvis_main > button{
@@ -93,4 +97,33 @@ color: var(--gray-color);
 
 /* Jarvis-main End */
 
+/* Analyze The Unknown Start */
+.jarvis_Analyze{
+    margin: 10%;
+    
+}
+.Analyze_title{
+    text-align: center;
+    font-size: 2rem;
+}
+.Analyze_title > h1{
+    color: var(--gray-color);
+}
+.Analyze_unknown{
+    color: var(--primary-color);
+}
+.Analyze_main{
+    display: flex;
+}
+.Data_Points{
+
+    border: rgb(202, 190, 190) solid;
+    border-radius: 1rem;
+    margin: 2rem;
+    width: 20rem;
+    max-width: 19rem;
+    height: 10rem;
+}
+
+/* Analyze TheUnknown End */
 
