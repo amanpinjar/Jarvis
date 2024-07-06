@@ -169,5 +169,38 @@ body {
 /* Analyze TheUnknown End */
 
 /* Why_Jarvis_main start */
+.Why_Jarvis_main{
+   /* margin: 15%; */
+   padding-top: 6%;
+   padding-left: 13%;
+   background-color: rgb(238, 243, 245) ;
+   height: 200%;
+}
+.Why_Jarvis_main > h1 > span  {
+   
+    color: var(--primary-color);
+    
+}
+.Why_Jarvis_main > p{
+    padding-right: 19%;
+    font-size: 1rem;
+}
 
+.Why_Jarvis_main >h1 {
+   
+    font-size: 3rem;
+    margin-bottom: 3%;
+}
+
+.Why_Jarvis_data{
+    color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+   
+}
+.Why_Jarvis_data_label{
+    display: flex;
+    
+}
 /* Why_Jarvis_main End */
