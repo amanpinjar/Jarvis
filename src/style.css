@@ -145,26 +145,29 @@ body {
 
 
 .Data_Points {
+    
 /* padding: 3%; */
     border:  rgb(202, 190, 190) solid;
     border-radius: 2rem;
+  
     margin: 2rem;
-    /* width: 1000px; */
-    /* max-width: 19rem; */
-    height: 13rem;
+     width: 500px; 
+   
+    height: 14rem; 
 
 }
 .Data_Points > img{
-    margin: 10%;
+    
+    padding: 20px;
 }
-.Data_Points > h4 {
-    
-    font-size: 28px;
-    
-    
+.Data_Points > span {
+ 
+    padding: 30px;
+    font-size: 25px;  
 }
 .Data_Points > p{
-    
+    padding-left: 30%;
+    font-size: 18px; 
 }
 /* Analyze TheUnknown End */
 
