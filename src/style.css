@@ -16,7 +16,7 @@ body {
 }
 
 :root {
-    --font-size: 24px;
+   
     --primary-color: #2b70c5;
     --secondary-color: #1566d6;
     --light-color: #fff;
@@ -27,6 +27,13 @@ body {
 }
 
 /* Narbar-start */
+
+
+header {
+    border-bottom: 1px solid rgba(171, 171, 171, 0.3);
+    width: 100%;
+
+}
 
 .navbar-main {
     display: flex;
@@ -120,6 +127,9 @@ body {
     margin: 15%;
 
 }
+.Analyze_img{
+    margin-bottom: 9%;
+}
 
 .jarvis_Analyze > p{
     padding: 2%;
@@ -145,29 +155,41 @@ body {
 
 
 .Data_Points {
-    
-/* padding: 3%; */
-    border:  rgb(202, 190, 190) solid;
+    display: flex;
+    align-items: center;
+padding: 3%; 
+    border: 1px rgb(202, 190, 190) solid;
     border-radius: 2rem;
   
     margin: 2rem;
-     width: 500px; 
+     /* width: 500px;  */
    
-    height: 14rem; 
+     /* height: 14rem;   */
 
 }
 .Data_Points > img{
     
-    padding: 20px;
+    padding: 2rem;
 }
-.Data_Points > span {
+/* .Data_Points > div {
  
     padding: 30px;
     font-size: 25px;  
-}
-.Data_Points > p{
-    padding-left: 30%;
+} */
+.Data_Points > p {
+    margin-top: 10px;
+    /* padding-left: 30%; */
     font-size: 18px; 
+}
+
+.Data_Points-des{
+    padding: 30px;
+}
+
+.Data_Points_title{
+    font-weight: 500;
+    font-size: 19px;
+    padding-bottom: 7%;
 }
 /* Analyze TheUnknown End */
 
@@ -179,7 +201,7 @@ body {
    background-color: rgb(238, 243, 245) ;
    height: 200%;
 }
-.Why_Jarvis_main > h1 > span  {
+.Why_Jarvis_des > h1 > span  {
    
     color: var(--primary-color);
     
@@ -200,7 +222,10 @@ body {
     display: flex;
     justify-content: center;
     font-size: 2rem;
-   
+  
+}
+.Why_Jarvis_des{
+    padding: 5%;
 }
 .Why_Jarvis_data_label{
     display: flex;
